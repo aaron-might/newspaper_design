@@ -23,7 +23,14 @@ body {
     font-size:2rem;
     justify-content: center;
     font-weight: bold;
-    margin: 0;
+    margin: 1rem 0 0.5rem;
+}
+time {
+    font-weight: bold;
+}
+nav{
+    border-top: 2px solid #C4C4C4;
+    border-bottom: 2px solid #C4C4C4;
 }
 
 .logo i {
