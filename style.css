@@ -8,3 +8,26 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0;
 }
+.text-center {
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    padding: 1rem;
+    width:1000px;
+    max-width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size:2rem;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+.logo i {
+    font-size: 3rem;
+    margin-right: 1rem;
+
+}
