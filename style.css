@@ -8,6 +8,9 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0;
 }
+img {
+    max-width:100%;
+}
 .text-center {
     text-align: center;
 }
@@ -34,6 +37,7 @@ nav {
 }
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     padding: 0;
     list-style-type: none;
     align-items: center;
@@ -54,17 +58,26 @@ nav a {
 }
 
 .col {
-    width: 33%;
-    padding: 1rem;
+    flex:1;
+    padding:1.5rem;
 }
 .col:not(:last-child) {
     border-right: 2px solid #c4c4c4;
-}
-img {
-    max-width: 100%;
 }
 
 main p {
     line-height:1.5rem;
     letter-spacing:1px;
+}
+main h3 {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .row{
+        flex-direction:column;
+    }
+    .col:not(:last-child) {
+        border-right: none;
+    }
 }
