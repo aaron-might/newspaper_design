@@ -57,7 +57,14 @@ nav a {
     width: 33%;
     padding: 1rem;
 }
-
+.col:not(:last-child) {
+    border-right: 2px solid #c4c4c4;
+}
 img {
     max-width: 100%;
+}
+
+main p {
+    line-height:1.5rem;
+    letter-spacing:1px;
 }
